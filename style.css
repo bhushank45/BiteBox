@@ -1,17 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Mate", serif;
 }
-
+/* navigation */
 nav div{
     display: flex;
     justify-content: space-between;
     background-color: black;
-    padding:30px 20px;
+    padding:0px 20px 0px 10px;
 }
 
 nav ul{
     display: flex;
+    align-items: center;
     gap: 50px;
 }
 
@@ -20,6 +23,28 @@ nav a{
     font-size: 20px;
     color:white;
 }
-nav h2{
+
+/* nav h2{
     color:white;
+} */
+
+nav a:hover{
+    color: red;
+}
+
+/* Highlight login Button */
+nav li:last-child a{
+    background-color: red;
+    padding: 6px 24px;
+    border-radius: 5px;
+}
+nav li:last-child a:hover{
+    background: #cc0000;
+    color: black;
+}
+
+nav a.active{
+    color:red;
+    font-weight: bold;
+    border-bottom: 2px solid red;
 }
