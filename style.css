@@ -48,3 +48,29 @@ nav a.active{
     font-weight: bold;
     border-bottom: 2px solid red;
 }
+
+/* hero */
+.hero{
+    background: url(images/bitebox_backgroud4.png);
+    aspect-ratio: 2752 / 1536;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.hero button:hover{
+    background-color: rgb(148, 9, 9);
+}
