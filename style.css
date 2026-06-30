@@ -101,3 +101,22 @@ nav a.active{
     font-size: 18px;
     color:#444;
 }
+
+/* about section */
+.about{
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 40px 20px;
+}
+.about h2{
+    color: rgb(238, 23, 23);
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.about p{
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
