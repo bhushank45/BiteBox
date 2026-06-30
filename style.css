@@ -74,3 +74,30 @@ nav a.active{
 .hero button:hover{
     background-color: rgb(148, 9, 9);
 }
+
+/* video section */
+.video_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap:20px
+}
+.video_text{
+    flex:1;
+}
+.video_box{
+    flex:1;
+}
+.video_box video{
+    width: 100%;
+    border-radius: 10px;
+}
+.video_text h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.video_text p{
+    font-size: 18px;
+    color:#444;
+}
