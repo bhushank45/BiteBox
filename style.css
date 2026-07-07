@@ -296,7 +296,7 @@ tbody tr{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg,#f9f9f9,#000);
+    background: linear-gradient(135deg,#000,darkgrey);
 }
 .auth-box{
     background:white;
@@ -341,4 +341,51 @@ tbody tr{
 .auth-box a{
     color: red;
     text-decoration: none;
+}
+
+/* BiteDeals-page */
+
+.deals-page{
+    background: #f8f8f8;
+    padding: 40px;
+}
+.deal-hero{
+    background: linear-gradient(135deg,rgb(0,0,0),#555);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.deal-hero h1{
+    font-size: 40px;
+}
+.deal-hero p{
+    font-size: 18px;
+}
+.section-title{
+    margin: 30px 0px 20px;
+    font-size: 28px;
+}
+.combo-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+.combo-section{
+    background: #fff;
+    padding: 40px;
+}
+.combo-card{
+    background: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    transform: 0.3s;
+}
+.combo-card img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
