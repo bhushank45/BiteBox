@@ -31,13 +31,21 @@
         <div class="auth-box">
             <form>
                 <h2>Login to Bite<span style="color: red;">Box</span></h2>
-                <input type="email" placeholder="Enter Your Email" required/>
-                <input type="password" placeholder="Enter Your Password" required/>
-                <button>Login</button>
+                <input type="email" placeholder="Enter Your Email" id="email" required/>
+                <div style="position: relative;">
+                    <input type="password" placeholder="Enter Your Password" id="password" required/>
+                    <span onclick="togglePassword()"
+                        style="position: absolute;right: 12px;top: 50%; transform: translateY(-50%);">
+                        <i class="fa-regular fa-eye"></i>
+                    </span>
+                </div>
+                <button type="button" onclick="login()">Login</button>
+                <p id="error" style="color: red; font-weight:bold;"></p>
                 <p><a href="signup.html">Forget Password</a></p>
                 <p>Don't have account <a href="signup.html">SignUp</a></p>
             </form>
         </div>
     </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
