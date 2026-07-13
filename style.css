@@ -313,10 +313,13 @@ tbody tr{
     padding: 10px;
     margin: 10px 0px;
     border: 2px solid #ddd;
-    outline: none;
+    transition: 0.3s;
+    
 }
 .auth-box input:focus{
+    outline: none;
     border-color: red;
+    box-shadow: 0 0 8px rgba(177, 51, 51, 0.3);
 }
 .auth-box h2{
     margin-bottom: 20px;
@@ -343,7 +346,16 @@ tbody tr{
     color: red;
     text-decoration: none;
 }
-
+.eye{
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.eye:hover{
+        color: #f80606;
+}
 /* BiteDeals-page */
 
 .deals-page{
