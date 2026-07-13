@@ -459,3 +459,20 @@ tbody tr{
 .green{ border-top:5px solid green;}
 .blue{ border-top:5px solid blue;}
 .orange{ border-top:5px solid orange}
+
+
+/* footer part */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: black;
+    color: #fff;
+}
+.footer-box span{
+    color: red;
+}
+.social-icons{
+    display: flex;
+    flex-direction: column;
+}
