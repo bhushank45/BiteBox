@@ -433,6 +433,7 @@ tbody tr{
 .deal-card{
     background: white;
     padding: 25px;
+    margin-bottom: 20px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -465,14 +466,46 @@ tbody tr{
 .footer-container{
     display: flex;
     justify-content: space-between;
+    /* gap: 60px; */
+}
+footer{
     padding: 20px;
     background: black;
     color: #fff;
 }
+footer ul{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: #aaa;
+}
+footer a:hover{
+    color: red;
+}
 .footer-box span{
     color: red;
 }
-.social-icons{
-    display: flex;
-    flex-direction: column;
+.footer-box h2,h3{
+    color: #fff;
+    margin-bottom: 15px;
+}
+.footer-box span{
+    color: red;
+}
+.social-icons a{
+    display:inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ccc;
+    background: #222;
+    padding: 10px;
+    border-radius: 50%;
+}
+.footer-bottom{
+    text-align: center;
+    border-top: 1px solid #333;
+    margin-top: 30px;
+    padding-top: 10px;
+    font-size: 14px;
 }
